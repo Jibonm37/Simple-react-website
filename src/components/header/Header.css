@@ -1,0 +1,19 @@
+.header-area{
+    background-color: cadetblue;
+    color: whitesmoke;
+    padding: 20px 30px;
+}
+.header-area h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-style: italic;
+}
+.header-area p{
+    font-size: 25px;
+    color: wheat;
+    font-style: italic;
+}
+.header-area h3{
+    color: lightpink;
+    font-size: 30px;
+}
