@@ -30,7 +30,7 @@ const Actors = () => {
                 
             </div>
             <div className='cart-area'>
-                    <Cart cart ={cart}></Cart>
+                    <Cart cart={cart}></Cart>
                 </div>
         </div>
     );

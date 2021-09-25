@@ -3,14 +3,15 @@ import'./Cart.css'
 
 const Cart = (props) => {
     const {cart}=props
+    console.log(cart)
+   
      
-    
+    let total=0;
     for(const actor of cart){
-      let actorName =actor.name ;
-      let salary = actor.salary;
-    console.log(actor)
+        total = total + actor.salary;
+   
     }
-    
+    const granTotal = total;
     
     return (
         <div className='cart-div'>
@@ -20,8 +21,9 @@ const Cart = (props) => {
             <h3>
                 Name:{}
             </h3>
-            <h4>Salary: {props.cart.salary} </h4>
+            <h4>Salary:  </h4>
             </div>
+            <h5>Total: {granTotal}</h5>
            
         </div>
     );
