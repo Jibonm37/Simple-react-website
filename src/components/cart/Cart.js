@@ -13,15 +13,17 @@ const Cart = (props) => {
     }
     const granTotal = total;
     
+    
     return (
         <div className='cart-div'>
             <h1>Cart </h1>
             <div>
                 <h2>Total Hired: {props.cart.length}  </h2>
+                
             <h3>
                 Name:{}
             </h3>
-            <h4>Salary:  </h4>
+            <h4>Salary: {props.cart.salary} </h4>
             </div>
             <h5>Total: {granTotal}</h5>
            
