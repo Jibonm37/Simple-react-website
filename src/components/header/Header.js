@@ -8,7 +8,7 @@ const Header = () => {
                 3 IDIOTS TEAM
             </h1>
             <h3>Budget: 633,035,164</h3>
-            <p>Your Most watched movie in your Life. I have displayed most important persons and Actors who acted in this movie.
+            <p>Your Most watched Movie in your Life. I have displayed most important persons and Actors who acted in this movie.
             </p>
         </div>
     );
